@@ -1,0 +1,89 @@
+body {
+  width: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+  background: rgb(28, 184, 65);
+  /* this is a green */
+}
+
+.button-error {
+  background: rgb(202, 60, 60);
+  /* this is a maroon */
+}
+
+.button-warning {
+  background: rgb(223, 117, 20);
+  /* this is an orange */
+}
+
+.button-secondary {
+  background: rgb(66, 184, 221);
+  /* this is a light blue */
+}
+
+.button-xsmall {
+  font-size: 70%;
+}
+
+.button-small {
+  font-size: 85%;
+}
+
+.button-large {
+  font-size: 110%;
+}
+
+.button-xlarge {
+  font-size: 125%;
+}
+
+.my-form {
+  margin-left: 2rem;
+}
+
+.number-size {
+  font-size: 3rem;
+}
+
+.division-container {
+  margin-inline: 5vw;
+  padding: 4rem;
+  border: 1px solid #c00;
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+.division-container_main-line {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #c00;
+  width: 30%;
+}
+
+.dividend-container {
+  margin-right: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.divider-container {
+  border-left: 2px solid #000;
+  padding-left: 1rem;
+  border-bottom: 2px solid #000;
+}
